@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {    
+  background-color: #f1f1f1;
+}
+
+
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background: #52BE80;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  color: white;
+}
+
+.navbar {
+  background-color: #dfdfdf;
+}
+
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  font-size: calc(10px + 2vmin);
+}
+
+.navbar-brand:hover {
+  color: #4ab778;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+  font-size: calc(5px + 2vmin);
+  background-color:#24a167;
+  border-radius: 50px;
+}
+
+.nav-link:hover {
+  color: #29764d;
+}
+
+.App-link {
+  color: #24a167;
+  text-align: left;
+}
+
+
